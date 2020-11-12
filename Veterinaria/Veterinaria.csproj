@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F97C3C73-8AB9-444D-A4D5-3341B8F9CEB9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Veterinaria</RootNamespace>
+    <AssemblyName>Veterinaria</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 8.0.12\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClaseClientes.cs" />
+    <Compile Include="ClaseConsulta.cs" />
+    <Compile Include="ClaseDetalleEntrada.cs" />
+    <Compile Include="ClaseDetalleGrooming.cs" />
+    <Compile Include="ClaseDetalleSalida.cs" />
+    <Compile Include="ClaseDetalleVenta.cs" />
+    <Compile Include="ClaseES.cs" />
+    <Compile Include="ClaseGrooming.cs" />
+    <Compile Include="ClaseMascotas.cs" />
+    <Compile Include="ClaseProductos.cs" />
+    <Compile Include="ClaseServicios.cs" />
+    <Compile Include="ClaseUsuarios.cs" />
+    <Compile Include="ClaseVenta.cs" />
+    <Compile Include="Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes.Designer.cs">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conexion.cs" />
+    <Compile Include="Entrada_Salida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entrada_Salida.Designer.cs">
+      <DependentUpon>Entrada_Salida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaClientes.Designer.cs">
+      <DependentUpon>ListaClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaMascotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaMascotas.Designer.cs">
+      <DependentUpon>ListaMascotas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaProductos.Designer.cs">
+      <DependentUpon>ListaProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaServicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaServicios.Designer.cs">
+      <DependentUpon>ListaServicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaUsuarios.Designer.cs">
+      <DependentUpon>ListaUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mascotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mascotas.Designer.cs">
+      <DependentUpon>Mascotas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAlmacen.Designer.cs">
+      <DependentUpon>MenuAlmacen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuCaja.Designer.cs">
+      <DependentUpon>MenuCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuGerente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuGerente.Designer.cs">
+      <DependentUpon>MenuGerente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuGrooming.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuGrooming.Designer.cs">
+      <DependentUpon>MenuGrooming.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuVeterinarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuVeterinarios.Designer.cs">
+      <DependentUpon>MenuVeterinarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos.Designer.cs">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReporteVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteVenta.Designer.cs">
+      <DependentUpon>ReporteVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServicioGrooming.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServicioGrooming.Designer.cs">
+      <DependentUpon>ServicioGrooming.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Servicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicios.Designer.cs">
+      <DependentUpon>Servicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServicioVeterinaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServicioVeterinaria.Designer.cs">
+      <DependentUpon>ServicioVeterinaria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuarios.Designer.cs">
+      <DependentUpon>Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venta.Designer.cs">
+      <DependentUpon>Venta.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Clientes.resx">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entrada_Salida.resx">
+      <DependentUpon>Entrada_Salida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaClientes.resx">
+      <DependentUpon>ListaClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaMascotas.resx">
+      <DependentUpon>ListaMascotas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaProductos.resx">
+      <DependentUpon>ListaProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaServicios.resx">
+      <DependentUpon>ListaServicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaUsuarios.resx">
+      <DependentUpon>ListaUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mascotas.resx">
+      <DependentUpon>Mascotas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAlmacen.resx">
+      <DependentUpon>MenuAlmacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuCaja.resx">
+      <DependentUpon>MenuCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuGerente.resx">
+      <DependentUpon>MenuGerente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuGrooming.resx">
+      <DependentUpon>MenuGrooming.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuVeterinarios.resx">
+      <DependentUpon>MenuVeterinarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos.resx">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReporteVenta.resx">
+      <DependentUpon>ReporteVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServicioGrooming.resx">
+      <DependentUpon>ServicioGrooming.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicios.resx">
+      <DependentUpon>Servicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServicioVeterinaria.resx">
+      <DependentUpon>ServicioVeterinaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuarios.resx">
+      <DependentUpon>Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venta.resx">
+      <DependentUpon>Venta.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perro_gato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5831a17a290077c646a48c4db78a81bb-perfil-de-usuario-icono-azul-by-vexels.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

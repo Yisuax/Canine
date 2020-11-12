@@ -1,0 +1,68 @@
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\bin\Debug\Veterinaria.exe.config
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\bin\Debug\Veterinaria.exe
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\bin\Debug\Veterinaria.pdb
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.csprojAssemblyReference.cache
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Clientes.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Entrada_Salida.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Login.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Mascotas.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Properties.Resources.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.ServicioVeterinaria.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Venta.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.csproj.GenerateResource.cache
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.csproj.CoreCompileInputs.cache
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.exe
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.pdb
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\bin\Debug\MySql.Data.dll
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\bin\Debug\Google.Protobuf.dll
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\bin\Debug\MySql.Data.xml
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.ServicioGrooming.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.csproj.CopyComplete
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.MenuGerente.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Usuarios.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Productos.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.MenuAlmacen.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.MenuCaja.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.MenuGrooming.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.MenuVeterinarios.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Servicios.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.ListaClientes.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.ListaMascotas.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.ListaProductos.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.ListaServicios.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.ListaUsuarios.resources
+C:\Users\bugab\Documents\Sexto Semestre\Ing Software\Veterinaria\Veterinaria\obj\Debug\Veterinaria.ReporteVenta.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\bin\Debug\Veterinaria.exe.config
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\bin\Debug\Veterinaria.exe
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\bin\Debug\Veterinaria.pdb
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\bin\Debug\MySql.Data.dll
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\bin\Debug\Google.Protobuf.dll
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\bin\Debug\MySql.Data.xml
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.csprojAssemblyReference.cache
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Clientes.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Entrada_Salida.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.ListaClientes.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.ListaMascotas.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.ListaProductos.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.ListaServicios.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.ListaUsuarios.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Login.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Mascotas.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.MenuAlmacen.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.MenuCaja.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.MenuGerente.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.MenuGrooming.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.MenuVeterinarios.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Productos.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Properties.Resources.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.ReporteVenta.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.ServicioGrooming.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Servicios.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.ServicioVeterinaria.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Usuarios.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Venta.resources
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.csproj.GenerateResource.cache
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.csproj.CoreCompileInputs.cache
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.csproj.CopyComplete
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.exe
+C:\Users\Jesus JV\Desktop\Veterinaria\Veterinaria\obj\Debug\Veterinaria.pdb
